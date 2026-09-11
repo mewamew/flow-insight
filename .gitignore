@@ -1,0 +1,49 @@
+# macOS and editors
+.DS_Store
+.vscode/
+.idea/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+
+# Node and build output
+node_modules/
+dist/
+build/
+.next/
+.vite/
+coverage/
+
+# Local runtime output
+*.log
+logs/*
+!logs/.gitkeep
+tmp/
+.cache/
+
+# Flow Insight local state and credentials
+/target/
+/data/runtime/
+/data/test-runtime/
+/data/validation/
+/reports/screenshots/
+qwen.txt
+settings.json
+settings.new
+*.sqlite3*
+.DS_Store

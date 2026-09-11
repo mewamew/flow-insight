@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>CFBundleIdentifier</key><string>com.mewamew.flow-insight</string>
+<key>CFBundleName</key><string>Flow Insight</string>
+<key>CFBundleDisplayName</key><string>Flow Insight</string>
+<key>CFBundleExecutable</key><string>flow-insight</string>
+<key>CFBundlePackageType</key><string>APPL</string>
+<key>CFBundleShortVersionString</key><string>0.2.1</string>
+<key>CFBundleVersion</key><string>3</string>
+<key>CFBundleIconFile</key><string>FlowInsight.icns</string>
+<key>LSMinimumSystemVersion</key><string>14.0</string>
+<key>LSUIElement</key><true/>
+<key>NSCameraUsageDescription</key><string>在你开始记录并开启本地在座检测后，在本机判断是否有人。摄像头画面不保存、不上传；点击停止记录后关闭摄像头。</string>
+</dict></plist>
